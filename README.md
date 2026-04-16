@@ -45,37 +45,19 @@ This replicates real-world inventory management decision systems used in retail 
 
 ## 🏗️ Project Structure
 
-
 Retail-Forecasting-System/
 │
-├── app/
-│ └── streamlit_app.py
+├── assets/
+│ ├── forecast.png
+│ ├── inventory.png
+│ ├── simulation.png
 │
 ├── src/
-│ ├── anomaly.py
-│ ├── data_preprocessing.py
-│ ├── feature_engineering.py
-│ ├── generate_data.py
-│ ├── inventory.py
-│ ├── model.py
-│ ├── model_compare.py
-│ ├── promo_analysis.py
-│ ├── simulation.py
-│
+├── app/
 ├── outputs/
-│ ├── forecast_results.csv
-│ ├── inventory_recommendations.csv
-│ ├── simulation_results.csv
-│ ├── forecast.png
-│
 ├── models/
 ├── notebooks/
-├── main.py
-├── api.py
-├── create_data.py
-├── generate_data.py
-├── requirements.txt
-└── README.md
+├── README.md
 ---
 
 ## ▶️ How to Run
@@ -100,16 +82,19 @@ streamlit run app/streamlit_app.py
 - KPI-style business insights  
 
 ---
-## 📸 Screenshots
 
-### 📊 Simulation Engine
-![Simulation](assets/simulation.png)
+---
+
+## 📸 Screenshots
 
 ### 📈 Forecast Results
 ![Forecast](assets/forecast.png)
 
 ### 📦 Inventory Optimization
 ![Inventory](assets/inventory.png)
+
+### 🔄 Simulation Results
+![Simulation](assets/simulation.png)
 
 ## 🧠 System Pipeline
 
